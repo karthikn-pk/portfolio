@@ -4,8 +4,8 @@ const Skills = () => {
   return (
     <section>
       <div>
-        <h1 className="text-2xl">FrontEnd Technologies</h1>
-        <ul className="flex">
+        <h1 className="text-2xl font-bold m-4">FrontEnd Technologies</h1>
+        <ul className="flex sm:min-w-[360px] flex-wrap">
           <li className="m-4">
             <img
               className="tech-logo shadowrounded"
@@ -51,8 +51,8 @@ const Skills = () => {
         </ul>
       </div>
       <div>
-        <h1 className="text2xl">Version Control</h1>
-        <ul className="flex">
+        <h1 className="text-2xl font-bold m-4">Version Control</h1>
+        <ul className="flex sm:min-w-[360px] flex-wrap">
           <li className="m-4">
             <img
               className="tech-logo shadowrounded"
@@ -70,8 +70,8 @@ const Skills = () => {
         </ul>
       </div>
       <div>
-        <h1>Testing Tools</h1>
-        <ul className="flex">
+        <h1 className="text-2xl font-bold m-4">Testing Tools</h1>
+        <ul className="flex sm:min-w-[360px] flex-wrap">
           <li className="m-4">
             <img
               className="tech-logo shadowrounded"

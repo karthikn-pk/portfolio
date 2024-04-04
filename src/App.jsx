@@ -6,7 +6,7 @@ import About from "./components/About";
 
 function App() {
   return (
-    <main className="bg-gray-900 text-gray-400 body-font font-serif overflow-hidden">
+    <main className="bg-gray-900 text-gray-400 body-font font-serif">
       <Header />
       <About />
       <Skills />

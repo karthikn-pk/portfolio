@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .tech-logo {
-  width: 200px; /* Or your desired width */
-  height: 100px; /* Auto height to maintain aspect ratio */
+  width: 200px;
+  height: 100px;
 }
 .shadowrounded {
-  border-radius: 8px;
+  @apply rounded-md shadow-lg;
 }
